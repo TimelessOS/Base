@@ -1,0 +1,4 @@
+projects:
+  TimelessOS-Base:
+    pkgs/linux-headers.bst:
+    - ref: v6.14.6-84282-g392c8e00cced35ed6f84559b2c12cc07fae012e3

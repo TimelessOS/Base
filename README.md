@@ -13,6 +13,7 @@ Bootstrapped off of TimelessOS Bootstrap
 pipx install buildstream
 pipx inject buildstream requests
 pipx inject buildstream dulwich
+pipx inject buildstream tomlkit
 
 # Build TimelessOS Base
 bst build all.bst

@@ -1,4 +1,4 @@
-kind: make
+kind: manual
 
 sources:
 - kind: git_tag
@@ -20,6 +20,14 @@ build-depends:
 - freedesktop-sdk.bst:components/zstd.bst
 
 config:
-  configure-commands:
+  build-commands:
   - |
-    ls
+    make PREFIX="%{prefix}"
+
+  install-commands:
+  - |
+    make modules_install
+    cp -iv arch/x86/boot/bzImage %{install-root}/boot/vmlinuz-6.14.5
+    cp -iv System.map %{install-root}/boot/System.map-6.14.5
+    cp -iv .config %{install-root}/boot/config-6.14.5
+    cp -r Documentation -T %{install-root}/usr/share/doc/linux-6.13.4

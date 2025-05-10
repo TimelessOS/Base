@@ -1,6 +1,7 @@
 # Buildstream Specific
 .bst
 all
+source-checkout
 
 # MKOSI Specific
 mkosi.key

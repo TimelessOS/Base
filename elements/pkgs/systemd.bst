@@ -27,6 +27,9 @@ config:
     %{meson}
 
 build-depends:
+  - freedesktop-sdk.bst:public-stacks/runtime-minimal.bst
   - buildsystems/meson.bst
   - freedesktop-sdk.bst:components/python3-jinja2.bst
   - freedesktop-sdk.bst:components/util-linux-full.bst
+  - freedesktop-sdk.bst:components/gperf.bst
+  - freedesktop-sdk.bst:components/libcap.bst

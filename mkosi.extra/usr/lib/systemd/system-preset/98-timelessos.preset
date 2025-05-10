@@ -1,0 +1,28 @@
+# Networking
+enable ModemManager.service
+enable NetworkManager.service
+enable systemd-resolved.service
+
+# NTP
+enable systemd-timesyncd.service
+
+# Printing
+enable cups.socket
+disable cups.service
+
+# Misc
+enable systemd-repart.service
+enable systemd-homed.service
+enable timelessos-firstboot.service
+enable sddm.service
+enable power-profiles-daemon.service
+
+enable systemd-homed-firstboot.service
+
+# Sysupdate
+enable systemd-sysupdate.timer
+disable systemd-sysupdate-reboot.timer
+
+enable timelessos-install-flatpaks.service
+
+enable avahi-daemon.socket

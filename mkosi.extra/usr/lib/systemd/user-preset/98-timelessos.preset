@@ -1,0 +1,5 @@
+enable pipewire.service
+enable pipewire-pulse.service
+enable wireplumber.service
+
+# TODO: FIX ME!

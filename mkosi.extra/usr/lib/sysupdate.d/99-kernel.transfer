@@ -1,0 +1,19 @@
+[Transfer]
+ProtectVersion=%A
+
+[Source]
+Type=url-file
+Path=https://eaterminer.tinoplay.eu/updates
+MatchPattern=TimelessOS_@v.efi.zst
+
+[Target]
+Type=regular-file
+Path=/EFI/Linux
+PathRelativeTo=boot
+MatchPattern=TimelessOS-@v+@l-@d.efi \
+             TimelessOS-@v+@l.efi \
+             TimelessOS-@v.efi
+Mode=0444
+TriesLeft=3
+TriesDone=0
+InstancesMax=2

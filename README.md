@@ -7,6 +7,7 @@ Bootstrapped off of TimelessOS Bootstrap
 # Contributing
 
 ## Building
+
 ```bash
 # Install Buildstream
 pipx install buildstream
@@ -24,4 +25,17 @@ echo "=================================="
 echo "Built! check ./all"
 
 ls all
+```
+
+## Making it bootable
+
+```bash
+# Make sure MKOSI is installed!
+
+# Move all to mkosi.skeleton
+mv all mkosi.skeleton
+
+mkosi
+
+# Done this time completely, output in mkosi.output
 ```

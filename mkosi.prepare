@@ -1,0 +1,3 @@
+#!/bin/bash
+
+touch $BUILDROOT/usr/lib/os-release

@@ -1,0 +1,15 @@
+[Unit]
+Description=Install Apps from Flatpak
+ConditionPathExists=!/var/lib/.flatpaks-installed
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/lib/timelessos/install-flatpaks
+
+[Install]
+WantedBy=default.target
+
+# TODO: FIX ME!

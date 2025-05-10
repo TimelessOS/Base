@@ -1,0 +1,9 @@
+PRETTY_NAME="TimelessOS"
+NAME="TimelessOS"
+ID="timelessos"
+RELEASE_TYPE=stable
+HOME_URL="https://eaterminer.tinoplay.eu/"
+SUPPORT_URL="https://eaterminer.tinoplay.eu/help"
+BUG_REPORT_URL="https://eaterminer.tinoplay.eu/report"
+PRIVACY_POLICY_URL="https://eaterminer.tinoplay.eu/legal/privacy-policy"
+LOGO=timelessos-logo

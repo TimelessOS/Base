@@ -1,2 +1,12 @@
+# Buildstream Specific
 .bst
 all
+
+# MKOSI Specific
+mkosi.key
+mkosi.crt
+.mkosi-private
+mkosi.cache
+mkosi.builddir
+mkosi.output
+mkosi.skeleton

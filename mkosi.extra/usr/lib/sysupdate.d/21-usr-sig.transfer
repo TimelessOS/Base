@@ -1,0 +1,15 @@
+[Transfer]
+ProtectVersion=%A
+
+[Source]
+Type=url-file
+Path=https://eaterminer.tinoplay.eu/updates
+MatchPattern=%M_@v.%a_@u.verity-sig.raw.zst
+
+[Target]
+Type=partition
+Path=auto
+MatchPattern=TimelessOS-System-@v-Sig
+MatchPartitionType=usr-verity-sig
+PartitionFlags=0
+ReadOnly=1

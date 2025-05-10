@@ -4,3 +4,7 @@ projects:
     - ref: v6.14.6-84282-g392c8e00cced35ed6f84559b2c12cc07fae012e3
     pkgs/linux.bst:
     - ref: v6.14.6-84282-g392c8e00cced35ed6f84559b2c12cc07fae012e3
+    pkgs/systemd.bst:
+    - ref: 1fb1f637baa979fd58fef67ea72b3e7255a99e21
+    pkgs/dbus.bst:
+    - ref: 958bf9db2100553bcd2fe2a854e1ebb42e886054

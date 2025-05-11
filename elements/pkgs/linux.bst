@@ -19,15 +19,18 @@ build-depends:
 - freedesktop-sdk.bst:components/util-linux.bst
 - freedesktop-sdk.bst:components/zstd.bst
 
+depends:
+- freedesktop-sdk.bst:components/kmod.bst
+
 config:
   build-commands:
   - |
-    make PREFIX="%{prefix}"
+    make PREFIX="%{prefix}" DESTDIR=%{install-root}
 
   install-commands:
   - |
-    make modules_install
-    cp -iv arch/x86/boot/bzImage %{install-root}/boot/vmlinuz-6.14.5
-    cp -iv System.map %{install-root}/boot/System.map-6.14.5
-    cp -iv .config %{install-root}/boot/config-6.14.5
-    cp -r Documentation -T %{install-root}/usr/share/doc/linux-6.13.4
+    mkdir /boot
+    make INSTALL_MOD_PATH='%{install-root}%{prefix}' modules_install
+    cp -iv arch/x86/boot/bzImage %{install-root}/boot/vmlinuz
+    cp -iv System.map %{install-root}/boot/System.map
+    cp -iv .config %{install-root}/boot/config

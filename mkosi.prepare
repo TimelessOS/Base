@@ -1,3 +1,4 @@
 #!/bin/bash
 
+# Create os-release before mkosi.extra is combined into the output
 touch $BUILDROOT/usr/lib/os-release

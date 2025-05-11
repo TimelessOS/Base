@@ -12,4 +12,6 @@ mkosi.builddir
 mkosi.output
 mkosi.skeleton
 
+# IDE Specific
+.vscode
 .idea

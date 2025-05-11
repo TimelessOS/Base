@@ -2,7 +2,7 @@ kind: meson
 
 sources:
 - kind: git_repo
-  url: fdo-git:dbus/dbus.git
+  url: fdo:dbus/dbus.git
   track: dbus-*.*
 
 variables:

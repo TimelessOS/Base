@@ -8,3 +8,5 @@ projects:
     - ref: 1fb1f637baa979fd58fef67ea72b3e7255a99e21
     pkgs/dbus.bst:
     - ref: 958bf9db2100553bcd2fe2a854e1ebb42e886054
+    pkgs/dracut.bst:
+    - ref: 279da16f1b8fcca27d41937967c4e8f4c295086a

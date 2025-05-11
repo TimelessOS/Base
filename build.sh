@@ -17,3 +17,6 @@ bst artifact checkout all.bst -f
 rm -rf mkosi.skeleton
 # Move all to mkosi.skeleton
 mv all mkosi.skeleton
+
+# Temporary until i can be bothered rebuilding the kernel
+mv mkosi.skeleton/boot/vmlinuz mkosi.skeleton/boot/vmlinuz-6.14.6

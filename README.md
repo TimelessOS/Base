@@ -16,16 +16,7 @@ pipx inject buildstream dulwich
 pipx inject buildstream tomlkit
 
 # Build TimelessOS Base
-bst build all.bst
-
-# Checkout the built artifact
-bst artifact checkout all.bst
-
-# Check the all directory
-echo "=================================="
-echo "Built! check ./all"
-
-ls all
+./build.sh
 ```
 
 ## Making it bootable

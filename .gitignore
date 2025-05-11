@@ -15,3 +15,6 @@ mkosi.skeleton
 # IDE Specific
 .vscode
 .idea
+
+# Us Specific
+files/linux/.config

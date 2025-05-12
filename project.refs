@@ -10,3 +10,9 @@ projects:
     - ref: 958bf9db2100553bcd2fe2a854e1ebb42e886054
     pkgs/dracut.bst:
     - ref: a2669c447bd5e0406f55efcc8c9c58be89458b08
+    pkgs/boost.bst:
+    - ref: ad9ce2c91bc0977a7adc92d51558f3b9c53596bb88246a280175ebb475da1762
+    pkgs/gtk.bst:
+    - ref: d10ce9ea9df44c1016d8d1721f39e55d3d607fcfb85334aec0d236cdc9a70556
+    pkgs/glib.bst:
+    - ref: 05c2031f9bdf6b5aba7a06ca84f0b4aced28b19bf1b50c6ab25cc675277cbc3f

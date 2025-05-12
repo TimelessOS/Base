@@ -17,6 +17,3 @@ bst build initramfs.bst
 # Checkout the built artifacts
 bst artifact checkout all.bst -f --directory mkosi.skeleton
 bst artifact checkout initramfs.bst -f --directory mkosi.images/initrd/mkosi.skeleton
-
-# Temporary until i can be bothered rebuilding the kernel
-mv mkosi.skeleton/boot/vmlinuz mkosi.skeleton/boot/vmlinuz-6.14.6

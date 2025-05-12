@@ -31,5 +31,5 @@ config:
   - |
     mkdir %{install-root}/boot
     make INSTALL_MOD_PATH='%{install-root}%{prefix}' modules_install
-    cp -iv arch/x86/boot/bzImage %{install-root}/boot/vmlinuz
+    cp -iv arch/x86/boot/bzImage %{install-root}/boot/vmlinuz-$(ls -1 %{install-root}%{prefix}/lib/modules | head -n1)
     cp -iv System.map %{install-root}/boot/System.map

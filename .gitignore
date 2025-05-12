@@ -1,5 +1,6 @@
 # Buildstream Specific
 .bst
+initramfs
 all
 source-checkout
 

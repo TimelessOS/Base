@@ -24,10 +24,10 @@ pipx inject buildstream tomlkit
 ```bash
 # Make sure MKOSI is installed!
 
-# Move all to mkosi.skeleton
-mv all mkosi.skeleton
-
 mkosi
 
 # Done this time completely, output in mkosi.output
 ```
+
+Recommended Command:
+`PLATFORM=amd-qemu ./build.sh && mkosi --force && mkosi qemu`

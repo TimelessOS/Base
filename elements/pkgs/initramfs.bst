@@ -14,6 +14,10 @@ config:
     - mkdir -p %{install-root}/boot
     - systemd-sysusers --root=%{install-root}
     - mkdir -p %{install-root}/usr/etc
-    - touch %{install-root}/usr/etc/gshadow %{install-root}/usr/etc/shadow
-    - chmod 777 %{install-root}/usr/etc/gshadow %{install-root}/usr/etc/shadow
+    - touch %{install-root}/usr/etc/{g,}shadow
+    - chmod 777 %{install-root}/usr/etc/{g,}shadow
+    - mkdir -p usr/etc
+    - touch usr/etc/{g,}shadow
+    - chmod 777 usr/etc/{g,}shadow
     - dracut -f --reproducible -v --no-machineid --kver $(ls -1 /lib/modules | head -n1) --tmpdir /tmp %{install-root}/boot/initramfs.zstd
+    

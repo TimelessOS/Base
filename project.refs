@@ -9,7 +9,7 @@ projects:
     pkgs/dbus.bst:
     - ref: 958bf9db2100553bcd2fe2a854e1ebb42e886054
     pkgs/dracut.bst:
-    - ref: a2669c447bd5e0406f55efcc8c9c58be89458b08
+    - ref: 956c08774074ddc45b2f975e13d5c13d1fc36eff
     pkgs/boost.bst:
     - ref: ad9ce2c91bc0977a7adc92d51558f3b9c53596bb88246a280175ebb475da1762
     pkgs/gtk.bst:

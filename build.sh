@@ -7,7 +7,7 @@ export PLATFORM=${PLATFORM:-amd}
 echo "Building for $PLATFORM"
 cp platforms/$PLATFORM/.config files/linux/.config
 
-rm -rf mkosi.skeleton
+rm -rf mkosi.images/base/mkosi.skeleton
 rm -rf mkosi.images/initrd/mkosi.skeleton
 
 # Build TimelessOS Base & Artifacts

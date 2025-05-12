@@ -24,8 +24,11 @@ pipx inject buildstream requests dulwich tomlkit
 
 mkosi
 
+# REQUIRED FOR mkosi qemu!
+mkosi genkey
+
 # Done this time completely, output in mkosi.output
 ```
 
 Recommended Command:
-`PLATFORM=amd-qemu ./build.sh && mkosi genkey && mkosi --force && mkosi qemu`
+`PLATFORM=amd-qemu ./build.sh && mkosi --force && mkosi qemu`

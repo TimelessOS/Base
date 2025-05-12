@@ -11,9 +11,7 @@ Bootstrapped off of TimelessOS Bootstrap
 ```bash
 # Install Buildstream
 pipx install buildstream
-pipx inject buildstream requests
-pipx inject buildstream dulwich
-pipx inject buildstream tomlkit
+pipx inject buildstream requests dulwich tomlkit
 
 # Build TimelessOS Base
 ./build.sh

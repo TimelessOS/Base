@@ -12,6 +12,8 @@ mkosi.cache
 mkosi.builddir
 mkosi.output
 mkosi.skeleton
+mkosi.tools
+mkosi.tools.manifest
 
 # IDE Specific
 .vscode

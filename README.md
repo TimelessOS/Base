@@ -28,4 +28,4 @@ mkosi
 ```
 
 Recommended Command:
-`PLATFORM=amd-qemu ./build.sh && mkosi --force && mkosi qemu`
+`PLATFORM=amd-qemu ./build.sh && mkosi genkey && mkosi --force && mkosi qemu`

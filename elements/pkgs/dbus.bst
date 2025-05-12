@@ -13,6 +13,9 @@ variables:
     -Dselinux=disabled
     -Dlaunchd=disabled'
 
+depends:
+  - freedesktop-sdk.bst:components/systemd.bst
+
 build-depends:
   - buildsystems/meson.bst
 

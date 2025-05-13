@@ -23,6 +23,7 @@ ghostscript: https://git.ghostscript.com/ # dumb http protocol
 nvidia: https://download.nvidia.com/
 w1fi: https://w1.fi/
 pypi: https://files.pythonhosted.org/packages/
+python: https://www.python.org/ftp/python/
 cpan: https://cpan.metacpan.org/
 cargo: https://static.crates.io/crates/
 kitware: https://gitlab.kitware.com/
@@ -42,3 +43,6 @@ libreoffice: https://git.libreoffice.org/
 intra2net: https://www.intra2net.com/en/developer/
 rust: https://static.rust-lang.org/dist/
 kde: https://download.kde.org/stable/
+qt: https://download.qt.io/archive/qt/
+cairo: https://www.cairographics.org/releases/
+oberhumer: https://www.oberhumer.com/opensource/

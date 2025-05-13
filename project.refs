@@ -16,3 +16,29 @@ projects:
     - ref: d10ce9ea9df44c1016d8d1721f39e55d3d607fcfb85334aec0d236cdc9a70556
     pkgs/glib.bst:
     - ref: 05c2031f9bdf6b5aba7a06ca84f0b4aced28b19bf1b50c6ab25cc675277cbc3f
+    pkgs/qt.bst:
+    - ref: 659d8bb5931afac9ed5d89a78e868e6bd00465a58ab566e2123db02d674be559
+    pkgs/gtk4.bst:
+    - ref: ef31bdbd6f082c4401634a20c850b0050c9bf252ef1e079764ee95a2a0c4c95a
+    pkgs/wayland-protocols.bst:
+    - ref: 810f1adaf33521cc55fc510566efba2a1418174f
+    pkgs/wayland.bst:
+    - ref: 864fb2a8399e2d0ec39d56e9d9b753c093775beadc6022ce81f441929a81e5ed
+    pkgs/libxml2.bst:
+    - ref: f453480307524968f7a04ec65e64f2a83a825973bcd260a2e7691be82ae70c96
+    pkgs/python3.bst:
+    - ref: d984bcc57cd67caab26f7def42e523b1c015bbc5dc07836cf4f0b63fa159eb56
+    pkgs/gnome-desktop.bst:
+    - ref: ae7ca55dc9e08914999741523a17d29ce223915626bd2462a120bf96f47a79ab
+    pkgs/cairo.bst:
+    - ref: 4541e0cd3a751b85e52e2a83d02ac6145a5efa85
+    pkgs/gtk3.bst:
+    - ref: d10ce9ea9df44c1016d8d1721f39e55d3d607fcfb85334aec0d236cdc9a70556
+    pkgs/libpng.bst:
+    - ref: ef5a5760d433574f5ee76df5263a9244a25acbe7
+    pkgs/pixman.bst:
+    - ref: 466566d7f3be42bc30af543b384555466609d8f7
+    pkgs/lzo.bst:
+    - ref: c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072
+    pkgs/fontconfig.bst:
+    - ref: c1bdf4f542f56d3b5035ec2806ed7a685f831c1b

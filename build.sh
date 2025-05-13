@@ -17,3 +17,4 @@ bst build builds/initramfs.bst
 # Checkout the built artifacts
 bst artifact checkout builds/base.bst -f --directory mkosi.images/base/mkosi.skeleton
 bst artifact checkout builds/initramfs.bst -f --directory mkosi.images/initrd/mkosi.skeleton
+ 

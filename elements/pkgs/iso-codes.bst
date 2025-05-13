@@ -1,0 +1,4 @@
+kind: autotools
+
+sources:
+- kind: 

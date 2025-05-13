@@ -9,6 +9,7 @@ depends:
   - buildsystems/autotools.bst
   #- pkgs/glib.bst
   - groups/base.bst
+  - pkgs/wayland-protocols.bst
 
 variables:
   meson-local: "-D broadway_backend=true"

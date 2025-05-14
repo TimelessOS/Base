@@ -15,6 +15,12 @@ depends:
 - freedesktop-sdk.bst:components/jpeg.bst
 - freedesktop-sdk.bst:components/libavif.bst
 - freedesktop-sdk.bst:components/libcap.bst
+- pkgs/libcdvar.bst
+- pkgs/libcshquote.bst
+- pkgs/libcrbtree.bst
+- pkgs/libcstdaux.bst
+- pkgs/libclist.bst
+- pkgs/libcini.bst
 #- freedesktop-sdk.bst:components/libgamemode.bst
 - freedesktop-sdk.bst:components/noto-emoji.bst
 - freedesktop-sdk.bst:components/nano.bst
@@ -39,4 +45,5 @@ depends:
 - freedesktop-sdk.bst:components/xdg-user-dirs.bst
 - freedesktop-sdk.bst:components/zstd.bst
 - freedesktop-sdk.bst:components/systemd.bst
+- freedesktop-sdk.bst:components/expat.bst
 - freedesktop-sdk.bst:components/systemd-ukify.bst

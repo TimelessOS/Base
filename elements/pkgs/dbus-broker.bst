@@ -8,11 +8,9 @@ sources:
 variables:
   meson-local: '
     --wrap-mode=nofallback
-    -Dselinux=false
-    -Dapparmor=true
     -Dlinux-4-17=true
     -Dsystem-console-users=gdm
-    -Daudit=true'
+    '
 
 depends:
   - freedesktop-sdk.bst:components/systemd.bst

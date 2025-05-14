@@ -8,9 +8,16 @@ build-depends:
 - buildsystems/meson.bst
 
 depends:
-- pkgs/xdg-desktop-portal.bst
-- pkgs/gtk3.bst
-- pkgs/gnome-desktop.bst
+#- pkgs/pipewire.bst
+- freedesktop-sdk.bst:components/gdk-pixbuf.bst
+- freedesktop-sdk.bst:components/json-glib.bst
+- freedesktop-sdk.bst:components/fuse3.bst
+- freedesktop-sdk.bst:components/gstreamer.bst
+- freedesktop-sdk.bst:components/gstreamer-plugins-base.bst
+- freedesktop-sdk.bst:components/gstreamer-plugins-good.bst
+
+runtime-depends:
+- pkgs/dbus.bst
 
 variables:
   meson-local: "-D tests=disabled"

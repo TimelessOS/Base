@@ -56,6 +56,22 @@ projects:
     - ref: c5858326bfbcc8ace581352e2be44622dc0e9e5c2801c8690fd2eed502607f84
     pkgs/mutter.bst:
     - ref: 6551a33ce887e68415b13952af6d6b430e95306f9297adc8c111953e995c515b
+    pkgs/xdg-desktop-portal.bst:
+    - ref: 33d666f169efdf3f3bedd531bdbd272edc8f471caf6ca6cf6752efbbab57523a
+    pkgs/xdg-desktop-portal-gtk.bst:
+    - ref: 0295af247fc0d8c94e722731c29a2db7a045d38b132325b22e508709a235300b
+    pkgs/xdg-desktop-portal-gnome.bst:
+    - ref: 9f6e4b14b583367c915e9494764f27cb84927faa3f9e6e018b93bbbcf3361e44
+    pkgs/libadwaita.bst:
+    - ref: 1011a5a93dc3b87e82da19910d7fab01a3b9d7fcb0b09751babb476eedb3d9a3
+    pkgs/bubblewrap.bst:
+    - ref: 988fd6b232dafa04b8b8198723efeaccdb3c6aa9c1c7936219d5791a8b7a8646
+    pkgs/libcap.bst:
+    - ref: 5f3e12ca39c476b78160df6e2345a642a8e6f178
+    pkgs/networkmanger.bst:
+    - ref: 64a4c2271a9003f80076e8b54e47339b52522fd7
+    pkgs/libndp.bst:
+    - ref: 2730638bf88984b09531813974f9bd14e1a50165
     pkgs/dbus-broker.bst:
     - ref: 9eb0b7e5826fc76cad7b025bc46f267d4a8784cb
     pkgs/libcdvar.bst:

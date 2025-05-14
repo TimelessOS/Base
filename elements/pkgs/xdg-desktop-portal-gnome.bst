@@ -9,3 +9,4 @@ build-depends:
 
 depends:
 - pkgs/gnome-desktop.bst
+- pkgs/libadwaita.bst

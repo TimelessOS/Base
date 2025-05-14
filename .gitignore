@@ -21,3 +21,4 @@ mkosi.tools.manifest
 
 # Us Specific
 files/linux/.config
+/pkgs

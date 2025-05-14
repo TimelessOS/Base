@@ -32,12 +32,11 @@ depends:
 - freedesktop-sdk.bst:components/zip.bst
 #- freedesktop-sdk.bst:components/cups.bst
 - pkgs/dbus.bst
+- pkgs/dbus-broker.bst
 #- freedesktop-sdk.bst:components/ffmpeg.bst
 #- freedesktop-sdk.bst:components/openssh.bst
 #- freedesktop-sdk.bst:components/pipewire.bst
 - freedesktop-sdk.bst:components/xdg-user-dirs.bst
 - freedesktop-sdk.bst:components/zstd.bst
 - freedesktop-sdk.bst:components/systemd.bst
-# TODO: Switch to dbus-broker, temporary to get logind working
-- freedesktop-sdk.bst:components/dbus.bst
 - freedesktop-sdk.bst:components/systemd-ukify.bst

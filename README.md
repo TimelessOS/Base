@@ -24,7 +24,7 @@ pipx inject buildstream requests dulwich tomlkit
 
 mkosi
 
-# REQUIRED FOR mkosi qemu!
+# REQUIRED FOR SECURE BOOT SIGNATURES!
 mkosi genkey
 
 # Done this time completely, output in mkosi.output

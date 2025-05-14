@@ -56,3 +56,19 @@ projects:
     - ref: c5858326bfbcc8ace581352e2be44622dc0e9e5c2801c8690fd2eed502607f84
     pkgs/mutter.bst:
     - ref: 6551a33ce887e68415b13952af6d6b430e95306f9297adc8c111953e995c515b
+    pkgs/dbus-broker.bst:
+    - ref: 9eb0b7e5826fc76cad7b025bc46f267d4a8784cb
+    pkgs/libcdvar.bst:
+    - ref: 00de28f6d42ec47697f1a1c5e694648f29ce1e05
+    pkgs/libcstdaux.bst:
+    - ref: 62121396117ab4e13d54c3c743047f1b2449b7d4
+    pkgs/libcutf8.bst:
+    - ref: aab553d293bbffa42f34dc966be61313d9433c2f
+    pkgs/libcini.bst:
+    - ref: d08d5edeaee9127e72bc1c1f20aca3a63bb880fb
+    pkgs/libcshquote.bst:
+    - ref: c4d0c851126c43eb52a1d7b0063429a79f7579d3
+    pkgs/libcrbtree.bst:
+    - ref: 034f74456617e445a0379d345a362397f02ba1ad
+    pkgs/libclist.bst:
+    - ref: fa024740fc6f0e244afb3eed888f95bffdf36323

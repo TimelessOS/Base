@@ -50,3 +50,9 @@ projects:
     - ref: f1c6544dcd83a73a5ccea9e0c48cf9a47e006190
     pkgs/gnome-shell.bst:
     - ref: 680baf694f45f8fc832d245ada6c63b5fc4b030ccfbebbfc0e0e3bc28da2e46d
+    pkgs/gnome-session.bst:
+    - ref: 56ae9c68e49995793eb2096bcdc4533b111669e1e54c8b6e0b1d952f6a5e8a70
+    pkgs/gdm.bst:
+    - ref: c5858326bfbcc8ace581352e2be44622dc0e9e5c2801c8690fd2eed502607f84
+    pkgs/mutter.bst:
+    - ref: 6551a33ce887e68415b13952af6d6b430e95306f9297adc8c111953e995c515b

@@ -10,7 +10,3 @@ build-depends:
 depends:
 - pkgs/gtk4.bst
 - pkgs/libxml2.bst
-
-variables:
-  meson-local: "
-      --buildtype=release"

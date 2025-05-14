@@ -1,27 +1,31 @@
-kind: meson
-
-sources:
-- kind: git_repo
-  url: fdo:cairo/cairo
-  track: 1.*
-
-build-depends:
-- buildsystems/meson.bst
-- buildsystems/cmake.bst
+kind: stack
 
 depends:
-- pkgs/pixman.bst
-- pkgs/libpng.bst
-- pkgs/lzo.bst
-- freedesktop-sdk.bst:components/glib.bst
-#- freedesktop-sdk.bst:components/freetype.bst
-- freedesktop-sdk.bst:components/xorg-lib-x11.bst
-- freedesktop-sdk.bst:components/xorg-lib-xext.bst
-- pkgs/fontconfig.bst
+- freedesktop-sdk.bst:components/cairo.bst
 
-variables:
-  meson-local: >-
-    -Dspectre=disabled
-    -Dtests=disabled
-    -Dsymbol-lookup=disabled
-    -Dlzo=enabled
+# Todo: Disabled until we've moved more away from FDO
+#kind: meson
+#
+#sources:
+#- kind: tar
+#  url: fdo:cairo/cairo/-/archive/1.18.4/cairo-1.18.4.tar
+#
+#build-depends:
+#- buildsystems/meson.bst
+#- buildsystems/cmake.bst
+##- freedesktop-sdk.bst:components/freetype.bst
+#
+#depends:
+#- pkgs/pixman.bst
+#- pkgs/libpng.bst
+#- pkgs/lzo.bst
+#- pkgs/glib.bst
+#- pkgs/freetype.bst
+#- pkgs/fontconfig.bst
+#
+#variables:
+#  meson-local: >-
+#    -Dspectre=disabled
+#    -Dtests=disabled
+#    -Dsymbol-lookup=disabled
+#    -Dlzo=enabled

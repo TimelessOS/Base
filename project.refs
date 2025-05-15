@@ -8,18 +8,14 @@ projects:
     - ref: 1fb1f637baa979fd58fef67ea72b3e7255a99e21
     pkgs/dbus.bst:
     - ref: 958bf9db2100553bcd2fe2a854e1ebb42e886054
-    pkgs/dracut.bst:
-    - ref: 956c08774074ddc45b2f975e13d5c13d1fc36eff
     pkgs/boost.bst:
     - ref: ad9ce2c91bc0977a7adc92d51558f3b9c53596bb88246a280175ebb475da1762
-    pkgs/gtk.bst:
-    - ref: d10ce9ea9df44c1016d8d1721f39e55d3d607fcfb85334aec0d236cdc9a70556
     pkgs/glib.bst:
     - ref: 05c2031f9bdf6b5aba7a06ca84f0b4aced28b19bf1b50c6ab25cc675277cbc3f
     pkgs/qt.bst:
     - ref: 659d8bb5931afac9ed5d89a78e868e6bd00465a58ab566e2123db02d674be559
     pkgs/gtk4.bst:
-    - ref: ef31bdbd6f082c4401634a20c850b0050c9bf252ef1e079764ee95a2a0c4c95a
+    - ref: 5f6f0fc3d654f5cac25808f806c126f5127f54a0
     pkgs/wayland-protocols.bst:
     - ref: 810f1adaf33521cc55fc510566efba2a1418174f
     pkgs/wayland.bst:
@@ -94,5 +90,5 @@ projects:
     - ref: d20a1523b6770dfa93a270bdda5d7c800d7ec191
     pkgs/wireplumber.bst:
     - ref: ac69acb3c2b7dc6d91776d5582dd0b2703bb71eb
-    pkgs/lua.bst:
-    - ref: 9fbf5e28ef86c69858f6d3d34eccc32e911c1a28b4120ff3e84aaa70cfbf1e30
+    pkgs/pango.bst:
+    - ref: 45522cd5c68ef9ef6e67a902a45a4e39dfcddaf7

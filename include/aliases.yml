@@ -2,7 +2,7 @@ github: https://github.com/
 gitlab: https://gitlab.com/
 gnu-ftp: https://ftpmirror.gnu.org/
 gnu-git: https://git.savannah.gnu.org/git/
-gnome-git: https://gitlab.gnome.org/
+gnome: https://gitlab.gnome.org/
 gnome-tar: https://ftp.gnome.org/pub/GNOME/sources/
 fdo: https://gitlab.freedesktop.org/
 sourceware: https://sourceware.org/git/

@@ -6,7 +6,10 @@ sources:
 
 build-depends:
 - buildsystems/meson.bst
+- freedesktop-sdk.bst:components/gobject-introspection.bst
+- freedesktop-sdk.bst:components/itstool.bst
 
 depends:
+- pkgs/glib.bst
 - pkgs/gtk4.bst
 - pkgs/libxml2.bst

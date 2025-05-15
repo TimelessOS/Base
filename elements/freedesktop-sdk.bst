@@ -16,4 +16,5 @@ config:
 #    components/glib.bst: pkgs/glib.bst
     components/dbus.bst: pkgs/dbus.bst
     components/libdbus.bst: pkgs/dbus.bst
+    components/pango.bst: pkgs/pango.bst
 #    components/cairo.bst: pkgs/cairo.bst

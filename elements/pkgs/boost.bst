@@ -2,7 +2,7 @@ kind: manual
 
 sources:
 - kind: tar
-  url: https://github.com/boostorg/boost/releases/download/boost-1.88.0/boost-1.88.0-b2-nodocs.tar.xz
+  url: github:boostorg/boost/releases/download/boost-1.88.0/boost-1.88.0-b2-nodocs.tar.xz
 
 build-depends:
 - buildsystems/all.bst

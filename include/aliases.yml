@@ -46,3 +46,5 @@ kde: https://download.kde.org/stable/
 qt: https://download.qt.io/archive/qt/
 cairo: https://www.cairographics.org/releases/
 oberhumer: https://www.oberhumer.com/opensource/
+lua: https://www.lua.org/ftp/
+lfs: https://www.linuxfromscratch.org/

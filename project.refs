@@ -49,7 +49,7 @@ projects:
     pkgs/itstool.bst:
     - ref: f1c6544dcd83a73a5ccea9e0c48cf9a47e006190
     pkgs/gnome-shell.bst:
-    - ref: 680baf694f45f8fc832d245ada6c63b5fc4b030ccfbebbfc0e0e3bc28da2e46d
+    - ref: ba4f455afd6213f387545946e3cd9daa39c904f7ab16dd830ac77a73ff1002ca
     pkgs/gnome-session.bst:
     - ref: 56ae9c68e49995793eb2096bcdc4533b111669e1e54c8b6e0b1d952f6a5e8a70
     pkgs/gdm.bst:
@@ -88,3 +88,11 @@ projects:
     - ref: 034f74456617e445a0379d345a362397f02ba1ad
     pkgs/libclist.bst:
     - ref: fa024740fc6f0e244afb3eed888f95bffdf36323
+    pkgs/networkmanager.bst:
+    - ref: 64a4c2271a9003f80076e8b54e47339b52522fd7
+    pkgs/pipewire.bst:
+    - ref: d20a1523b6770dfa93a270bdda5d7c800d7ec191
+    pkgs/wireplumber.bst:
+    - ref: ac69acb3c2b7dc6d91776d5582dd0b2703bb71eb
+    pkgs/lua.bst:
+    - ref: 9fbf5e28ef86c69858f6d3d34eccc32e911c1a28b4120ff3e84aaa70cfbf1e30

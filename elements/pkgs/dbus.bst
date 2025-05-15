@@ -5,6 +5,12 @@ sources:
   url: fdo:dbus/dbus.git
   track: dbus-*.*
 
+build-depends:
+  - buildsystems/meson.bst
+
+depends:
+  - freedesktop-sdk.bst:components/systemd.bst
+
 variables:
   meson-local: '
     --wrap-mode=nofallback
@@ -12,12 +18,6 @@ variables:
     -Duser_session=true
     -Dselinux=disabled
     -Dlaunchd=disabled'
-
-depends:
-  - freedesktop-sdk.bst:components/systemd.bst
-
-build-depends:
-  - buildsystems/meson.bst
 
 config:
   install-commands:

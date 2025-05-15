@@ -15,12 +15,9 @@ depends:
 - freedesktop-sdk.bst:components/jpeg.bst
 - freedesktop-sdk.bst:components/libavif.bst
 - freedesktop-sdk.bst:components/libcap.bst
-- pkgs/libcdvar.bst
-- pkgs/libcshquote.bst
-- pkgs/libcrbtree.bst
-- pkgs/libcstdaux.bst
-- pkgs/libclist.bst
-- pkgs/libcini.bst
+- pkgs/networkmanager.bst
+- pkgs/wireplumber.bst
+- pkgs/pipewire.bst
 #- freedesktop-sdk.bst:components/libgamemode.bst
 - freedesktop-sdk.bst:components/noto-emoji.bst
 - freedesktop-sdk.bst:components/nano.bst

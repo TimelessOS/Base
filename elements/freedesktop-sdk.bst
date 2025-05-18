@@ -17,4 +17,6 @@ config:
     components/dbus.bst: pkgs/dbus.bst
     components/libdbus.bst: pkgs/dbus.bst
     components/pango.bst: pkgs/pango.bst
-#    components/cairo.bst: pkgs/cairo.bst
+    components/cairo.bst: pkgs/cairo.bst
+    components/librsvg.bst: pkgs/librsvg.bst
+    components/pycairo.bst: pkgs/pycairo.bst

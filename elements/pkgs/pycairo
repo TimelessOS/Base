@@ -1,0 +1,13 @@
+kind: meson
+
+build-depends:
+- buildsystems/meson.bst
+
+depends:
+- pkgs/cairo.bst
+- pkgs/python3.bst
+
+sources:
+- kind: git_repo
+  url: github:pygobject/pycairo.git
+  track: v*

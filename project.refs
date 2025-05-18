@@ -92,3 +92,5 @@ projects:
     - ref: ac69acb3c2b7dc6d91776d5582dd0b2703bb71eb
     pkgs/pango.bst:
     - ref: 45522cd5c68ef9ef6e67a902a45a4e39dfcddaf7
+    pkgs/librsvg.bst:
+    - ref: 150c002002269bf4fa0177df68d23e11e910cf95
